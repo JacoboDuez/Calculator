@@ -1,0 +1,43 @@
+
+.buttons{
+    display:grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    gap:5px;
+}
+
+
+
+.button-operation{
+    padding: 20px 0px;
+    text-align:center;
+    background-color: coral;
+}
+
+
+
+.button-number{
+    padding:20px 0px;
+    text-align:center;
+    background-color: bisque;
+}
+
+
+#largeButton{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#container{
+    width:fit-content;
+}
+
+.display{
+    border:1px solid;
+    margin-bottom: 5px;
+    padding:15px 10px;
+    text-align: right;
+    font-family: "Courier New", Courier,monospace;
+    font-size: xx-large;
+    
+
+}
